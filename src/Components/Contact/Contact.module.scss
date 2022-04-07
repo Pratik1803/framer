@@ -1,0 +1,38 @@
+.contact{
+    width: 100%;
+    height: calc(100vh - 100px);
+    font-family: "Open Sans", sans-serif;
+    .wrapper{
+        margin: 0px 50px 50px 50px;
+        border-radius: 0px 0px 50px 50px;
+		background: #fffeee;
+		height: 100%;
+        h1{
+            text-align: center;
+            padding: 30px 0px;
+        }
+        .user_details{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px 0px;
+            input{
+                padding: 10px;
+                border-radius: 10px;
+                outline: none;
+                border: none;
+            }
+        }
+        .message{
+            width: 100%;
+            padding: 30px;
+            textarea{
+                width: 100%;
+                border: none;
+                outline: none;
+                padding: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #E0DDAA;
+    height: 60px;
+    z-index: 2;
+    h1{
+        font-family: "Cookie", cursive;
+        color: #203239;
+    }
+    a{
+        text-decoration: none;
+        color: #141E27;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}
